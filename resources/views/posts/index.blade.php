@@ -16,5 +16,11 @@
                 </div>
             @endforeach
         </div>
+dev_basis02
+        <div class='paginate'>
+            {{ $posts->links()}}
+        </div>
+
+master
     </body>
 </html>
